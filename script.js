@@ -9,6 +9,7 @@ function compute(){
     //check if principal amount not less than 0 or Zero
     if (principal <= 0){
         alert("Enter a positive number");
+        document.getElementById("principal").focus();
         exit();
         }
     
