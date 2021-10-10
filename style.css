@@ -1,8 +1,7 @@
 body {background-color:black;
       font-family:arial;
       color:white;      
-      /* background colour of body is set to black, font is set to arial and color of the font is set to white
-         this will only affect the text in footer and not the text inside the div */
+      /* background colour of body is set to black, font is set to arial and color of the font is set to white */ 
 }
 h1{color:grey;
    font-family: verdana;
@@ -12,17 +11,41 @@ h1{color:grey;
 .maindiv{
     background-color: white;
     color:black;
+    /* align-content: justify; 
+    justify-content: center; */
+    text-align: justify;
     width:500px;
     padding:20px; /* https://developer.mozilla.org/en-US/docs/Web/CSS/padding */
     border-radius: 25px; /* https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius */
-    margin:0 auto; /* reference https://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-horizontally-width-of-the-page */
+    margin:0px auto; /* reference https://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-horizontally-width-of-the-page */
     /*CSS setting for class maindiv width is set to 500px against the suggested 300px 
     setting 300px will make the h1 text to show in two lines, the sample image shows the h1 text in one line hence used 500px
     */
-}
+    
+    }
 
 .highlight{
     background-color:yellow;
     padding:0.1em 0.2em;
     /* used in the result,in span with class set to "hightlight" */
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+    padding: 10px;
+    padding-left: 0px;
+    margin-left: 60px;
+  }​
+  
+footer{
+      align-content: left;
+  }
+button{
+    margin-left: 60px;
+}
+#result{
+    display: inline-block;
+    padding-left: 60px;
 }

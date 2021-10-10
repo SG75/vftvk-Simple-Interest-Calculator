@@ -14,7 +14,7 @@ function compute(){
     
     // console.log(interest,year); /* output value of the variables to console to check*/
     // construct the text for innerHTML for span with id "results"
-   document.getElementById("result").innerHTML= "If you deposit "+"<span class='highlight'>"+principal+"</span>"+",\<br\> at an interest rate of "+"<span class='highlight'>"+rate+"</span>"+"%\<br\> You will receive an amount of "+"<span class='highlight'>"+interest+"</span>"+",\<br\> in the year "+"<span class='highlight'>"+year+"</span>"+"\<br\>";
+   document.getElementById("result").innerHTML= "If you deposit "+"<span class='highlight'>"+principal+"</span>"+",\<br\> at an interest rate of "+"<span class='highlight'>"+rate+"</span>"+"%.\<br\> You will receive an amount of "+"<span class='highlight'>"+interest+"</span>"+",\<br\> in the year "+"<span class='highlight'>"+year+"</span>"+"\<br\>";
    // reference - https://stackoverflow.com/questions/8644428/how-to-highlight-text-using-javascript 
   
 }
