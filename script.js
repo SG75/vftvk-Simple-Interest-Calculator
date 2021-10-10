@@ -20,7 +20,7 @@ function compute(){
 }
     // update the rate of interest value for the input type range in the innerHTML for span with id "rate_val"
 function updateRate(){
-    var rateval = document.getElementById("rate").value;
+    var rateval = document.getElementById("rate").value+"%";
     document.getElementById("rate_val").innerHTML=rateval;
 }
 
