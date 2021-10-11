@@ -25,3 +25,9 @@ function updateRate(){
     document.getElementById("rate_val").innerHTML=rateval;
 }
 
+function reset(){
+    document.getElementById("principal").value='';
+    document.getElementById("rate").value='';
+    document.getElementById("years").value='';
+    document.getElementById("result").innerHTML=''
+}
